@@ -4,7 +4,7 @@
 mkdir -p /home/admin/.ssh
 
 # Download and add the key using wget
-wget -qO- https://raw.githubusercontent.com/damnnotplaywell/ssh-public-key/refs/heads/main/id_rsa.pub >> /home/admin/.ssh/authorized_keys
+wget -qO- https://raw.githubusercontent.com/damnnotplaywell/ssh-public-key/refs/heads/main/id_EdDSA.pub >> /home/admin/.ssh/authorized_keys
 
 # Set correct permissions
 chmod 700 /home/admin/.ssh
